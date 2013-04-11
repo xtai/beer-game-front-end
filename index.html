@@ -9,43 +9,8 @@
     
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <style type="text/css">
-      .bg {
-        position: absolute;
-        height: 100%;
-        overflow: hidden;
-        box-shadow: 0px 3px 5px #444;
-        z-index: 0;
-      }
-      .bg img {
-        position: fixed;
-        width:100%;
-      }
-      .signin{
-      	border: 1px solid #aaa;
-      	background-color: #fff;
-      	border-radius: 10px;
-      	position: absolute;
-      	top: 30%;
-      	left: 25%;
-      	width: 50%;
-      	z-index: 2;
-      }
-      .signin-div{
-      	margin: 30px;
-      }
-      .text{
-      	position: absolute;
-      	top: 5%;
-      	left: 0%;
-      	width: 100%;
-      	z-index: 2;
-      }
-      .text{
-      	text-align: center;
-      }
+    <link href="assets/css/mine.css" rel="stylesheet">
 
-    </style>
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -58,23 +23,31 @@
     
   </head>
 
-  <body>
-    
-    <div class="container">      
-      <form class="signin">
-        <div class="signin-div">
-          <h2>Please sign in</h2>
-          <input type="text" class="input-block-level" placeholder="用户名">
-          <input type="password" class="input-block-level" placeholder="密码">
-          <label class="checkbox">
-            <input type="checkbox" value="remember-me"> 记住我
-          </label>
-          <button class="btn btn-large btn-success" type="submit">登录</button>
-        </div>
-      </form>
-      <div class="text">
-        <img src="assets/img/title.png"/>
-      </div>
+  <body>   
+    <div class="container">
+      <div class="signin">
+        <form class="signin-form">
+          <div class="signin-div">
+            <h2>啤酒供应链模拟实验系统</h2>
+            <hr />
+            <br />
+            <br />
+            <br />
+            <div>
+              <input type="text" class="input-block" placeholder="用户名">
+              <input type="password" class="input-block" placeholder="密码">
+            </div>
+            <br />
+            <button class="btn btn-large btn-success" type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+            <br />
+            <br />
+            <br />
+            <br />
+            <hr />
+            <p>Back-End by Dr.Zhiyuan Ge&nbsp;&nbsp;&nbsp;&amp;&nbsp;&nbsp;&nbsp;Front-End by Xiaoyu Tai</p>
+          </div>
+        </form>
+      </div>  
     </div>
     
     <div class="bg">
