@@ -14,11 +14,12 @@
         position: absolute;
         height: 100%;
         overflow: hidden;
+        box-shadow: 0px 3px 5px #444;
+        z-index: 0;
       }
       .bg img {
         position: fixed;
         width:100%;
-        height:;
       }
       .signin{
       	border: 1px solid #aaa;
@@ -26,18 +27,24 @@
       	border-radius: 10px;
       	position: absolute;
       	top: 30%;
-      	left: 50%;
+      	left: 25%;
+      	width: 50%;
+      	z-index: 2;
       }
       .signin-div{
       	margin: 30px;
       }
       .text{
       	position: absolute;
-      	top: 35%;
+      	top: 5%;
+      	left: 0%;
+      	width: 100%;
+      	z-index: 2;
       }
-      .text h2{
-      	color: #000;
+      .text{
+      	text-align: center;
       }
+
     </style>
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -48,16 +55,13 @@
       <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
     <![endif]-->
     
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
   </head>
 
   <body>
-    <div class="bg">
-      <img src="assets/img/bg.jpg" />
-    </div>
     
-    <div class="container">
-      <div class="signin">
+    <div class="container">      
+      <form class="signin">
         <div class="signin-div">
           <h2>Please sign in</h2>
           <input type="text" class="input-block-level" placeholder="用户名">
@@ -67,12 +71,15 @@
           </label>
           <button class="btn btn-large btn-success" type="submit">登录</button>
         </div>
-      </div>
+      </form>
       <div class="text">
-        <h2>啤酒供应链模拟实验系统</h2>
+        <img src="assets/img/title.png"/>
       </div>
     </div>
     
+    <div class="bg">
+      <img src="assets/img/bg.jpg"/>
+    </div>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 
