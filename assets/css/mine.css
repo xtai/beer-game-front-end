@@ -110,7 +110,7 @@
 	color: rgba(0, 0, 0, .80);
 }
 .big-icon {
-	font-size: 120px;
+	font-size: 130px;
 	color: rgba(102, 166, 103, .60);
 }
 .dash .highlight{
@@ -150,6 +150,7 @@
 	-moz-border-radius: 8px;
 	-ms-border-radius: 8px;
 	-o-border-radius: 8px;
+	height: 370px;
 }
 .dash .dash-text {
 	margin-left: 5px;
