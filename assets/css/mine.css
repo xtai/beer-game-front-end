@@ -110,7 +110,7 @@
 	color: rgba(0, 0, 0, .80);
 }
 .big-icon {
-	font-size: 150px;
+	font-size: 120px;
 	color: rgba(102, 166, 103, .60);
 }
 .dash .highlight{
@@ -140,7 +140,7 @@
 }
 .dash {
 	text-align: center;
-	margin-bottom: -5px;
+	margin-bottom: 20px;
 }
 .dash > div {
 	padding: 10px;
@@ -154,7 +154,6 @@
 .dash .dash-text {
 	margin-left: 5px;
 	margin-right: 5px;
-	height: 100px;
 }
 .dash p {
 	text-align: left;
@@ -169,25 +168,23 @@
 	margin-top: 13px;
 	margin-bottom: 13px;
 }
-.dash .hhr {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
 .dash-title {
 	color: rgba(0, 0, 0, .60);
 	margin-top: 5px;
 }
-.dash > div > table {
+.dash > div table {
 	margin-bottom: 2px;
 }
-.dash > div > table td,
-.dash > div > table th {
-	font-size: 16px;
+.dash > div table td,
+.dash > div table th {
+	font-size: 18px;
+	height: 28px;
+	vertical-align: middle;
 	text-align:center;
 	color: rgba(0, 0, 0, .80);
 }
-.dash > div > table > tbody > tr:nth-child(odd) > td,
-.dash > div > table > tbody > tr:nth-child(odd) > th {
+.dash > div table > tbody > tr:nth-child(odd) > td,
+.dash > div table > tbody > tr:nth-child(odd) > th {
 	background-color: rgba(150, 150, 150, .10);
 }
 .status {

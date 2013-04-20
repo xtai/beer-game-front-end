@@ -9,18 +9,14 @@
     
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/mine.css" rel="stylesheet">
-    <!--[if IE 7]> 
-      <style>#iee{visibility: show;}</style>
-    <![endif]-->
 
     <style>
-      html{height: 100%;}
-      body{height: 100%;}
+      html,body{height: 100%;}
     </style>
   </head>
 
   <body>
-
+    <script src="assets/js/jquery.js"></script>
     <div class="container">
       <div class="signin">
         <form class="signin-form">
@@ -49,22 +45,22 @@
       <img src="assets/img/bg.png"/>
     </div>
     
-    <div id="iee">
-      <div id="iee-up"></div>
-      <div id="iee-down"></div>
-    </div>
-    <script src="assets/js/jquery.js"></script>
-    <script type="text/javascript "language="JavaScript">
-    function a()
-    {
-      $('#iee').hide();
-      var app=navigator.appName;
-      if (app.indexOf('Microsoft') != -1) {
-        $('#iee').show();
-      } 
-    }
-    a();
-    </script>
-    
+    <!--[if IE]>
+      <div id="iee">
+        <div id="iee-up" style="text-align: center; overflow: hidden;">
+          <div style="position: relative; top: 10%;">
+            <img style="width: 30%; max-width: 400px;" src="assets/img/ie/forgetie.png" alt="别傻看着了，赶快换浏览器啊！"/>
+            <img style="width: 70%; max-width: 700px;" src="assets/img/ie/forgetie-text.png" alt="你绝对无法想象我花了多长时间调试这个专门为IE设置的界面！！！" />
+          </div>
+        </div>
+        <div id="iee-down" style="text-align: center;">
+          <div style="position: relative; top: 10%;">
+            <img style="width: 70%; max-width: 400px;" src="assets/img/ie/forgetie-text2.png" alt="试试能死呀！！！"/>
+            <a href="http://www.google.com/chrome"><img style="width: 50%; max-width: 200px;" src="assets/img/ie/chrome.png" alt="Chrome" /></a>
+            <a href="http://firefox.com"><img style="width: 50%; max-width: 200px;" src="assets/img/ie/firefox.png" alt="FireFox" /></a>
+          </div>
+        </div>
+      </div>
+    <![endif]-->
   </body>
 </html>
